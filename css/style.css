@@ -61,18 +61,70 @@ main {
     background-color: blue;
 }
 
+/* Pink box*/
 
-main {
-    background-color: rgb(15, 108, 247);
+.pink-box {
+    background-color: rgb(21, 85, 180);
     height: 450px;
-    padding-top: 40px;
+    padding-top: 30px;
     display: flex; 
     justify-content:center;
 }
 
-.se {
+.down-box-pink {
     height: 380px;
     width: 800px;
-    background: rgb(236, 51, 227);
-    border: 2px dashed black;
+    background: rgb(240, 106, 233);
+    border: 1px dashed black;
+}
+
+
+/* Box-2*/
+
+.box-two {
+    background-color: azure;
+    height: 380px;
+    padding-top: 20px;
+    display: flex; 
+    justify-content:center;
+}
+
+
+.next-box-two {
+    height: 330px;
+    width: 100%;
+    background: rgb(106, 231, 240);
+    border: 1px dashed black;
+}
+
+.down-box-two {
+    height: 330px;
+    width: 60%;
+    background: rgb(252, 186, 248);
+    border: 1px dashed black;
+}
+
+
+/* Box-3*/
+
+.box-three {
+    background-color: rgb(177, 172, 172);
+    height: 380px;
+    padding-top: 20px;
+    display: flex; 
+    justify-content:center;
+}
+
+.down-box-three {
+    height: 330px;
+    width: 370px;
+    background: rgb(252, 186, 248);
+    border: 1px dashed black;
+}
+
+.next-box-three {
+    height: 330px;
+    width: 628px;
+    background: rgb(106, 231, 240);
+    border: 1px dashed black;
 }
