@@ -128,3 +128,35 @@ main {
     background: rgb(106, 231, 240);
     border: 1px dashed black;
 }
+
+/* Box-Green*/
+
+.green-box {
+    background-color: rgb(177, 172, 172);
+    height: 450px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.down-box-green {
+    height: 400px;
+    width: 100%;
+    background: green;
+    border: 1px dashed black;
+}
+
+/* Colored-Column*/
+
+.colored-column {
+    background-color: black;
+    height: 450px;
+    padding-top: 20px;
+    display: ;
+    justify-content: ;
+}
+
+.purple-column {
+    
+}
