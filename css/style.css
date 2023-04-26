@@ -14,23 +14,32 @@
     margin: 0 auto;
 }
 
+.container-principal {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 
 /* Header*/
 
-#dash-black {
+.dash-black {
     border: 1px dashed black;
     width: 200px;
     padding-top: 6px;
 }
 
 header {
-    border: 1px solid red;
     background-color: rgb(1, 188, 245);
     height: 80px;
-    
+    padding-top: 6px;
 }
 
-section {
+.logo-left > h3 {
+    padding-left: 8px;
+}
+
+
+#logo-bar {
     background: orange;
     display: flex;
     justify-content:space-between; 
@@ -56,10 +65,7 @@ ul li {
 
 /* Main*/
 
-main {
-    height: 400px;
-    background-color: blue;
-}
+
 
 /* Pink box*/
 
@@ -133,7 +139,7 @@ main {
 
 .green-box {
     background-color: rgb(177, 172, 172);
-    height: 450px;
+    height: 550px;
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -141,7 +147,7 @@ main {
 
 
 .down-box-green {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: green;
     border: 1px dashed black;
@@ -153,10 +159,52 @@ main {
     background-color: black;
     height: 450px;
     padding-top: 20px;
-    display: ;
-    justify-content: ;
+    border-bottom: 1px solid white;
 }
 
 .purple-column {
+    height: 390px;
+    width: 70%;
+    background: rgb(221, 72, 109);
+    border: 1px dashed white;
+}
+
+.teal-green {
+    height: 390px;
+    width: 40%;
+    background: rgb(18, 155, 109);
+    border: 1px dashed white;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer*/
+
+
+footer {
+    height: 75px;
+    background-color: black;
+    padding-top: 5px;
+    border-bottom: 1px solid white
+}
+
+
+#footer-logo {
+    display: flex;
+    justify-content:space-between; 
+    margin-top: 20px;
+    background-color: rgb(13, 218, 105);
+    height: 50px; 
+}
+
+#footer-logo > div {
+    border: 1px dashed black;
+    height: 30px;
+    background-color: pink;
+    padding: 5px; margin-top: 10px;
     
 }

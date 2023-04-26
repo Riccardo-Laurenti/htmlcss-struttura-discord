@@ -8,16 +8,17 @@
     <title>HTML-CSS Struttura Discord</title>
 </head>
 <body>
-
+    <!--Principal Container-->
+    <div class="container-principal">
         <!--Header-->
         <header>
           <div class="container">
-                <section>
-                    <div class="logo-left" id="dash-black">
+                <section id="logo-bar">
+                    <div class="logo-left dash-black">
                             <h3>logo</h3>
                     </div>
 
-                    <nav id="dash-black">
+                    <nav class="dash-black">
                         <ul>
                             <li>link</li>
                             <li>link</li>
@@ -27,15 +28,14 @@
                         </ul>
                     </nav>
 
-                    <div class="login-right" id="dash-black">
+                    <div class="login-right dash-black">
                             <h3>login</h3>
                     </div>
                 </section>
           </div>  
         </header>
-
-
-
+        
+        <!--Main-->
         <main>
             <!--Pink Box-->
             <div class="pink-box">
@@ -62,17 +62,25 @@
             </div>
             <!--Column stuck-->
             <div class="colored-column">
-                <div class="purple-column"> </div>
-                <div class="teal-green"> </div>
-                <div class="teal-green"> </div>
-                <div class="teal-green"> </div>
-                <div class="teal-green"> </div>
+                <div class="flex container">
+                    <div class="purple-column"> </div>
+                    <div class="teal-green"> </div>
+                    <div class="teal-green"> </div>
+                    <div class="teal-green"> </div>
+                    <div class="teal-green"> </div>
+                </div>
             </div>
-
         </main>
 
-        
-    
-
+        <!--Footer-->
+        <footer class="">
+            <div class="container">
+                <section id="footer-logo">
+                    <div>Logo</div>
+                    <div>Bottone</div>
+                </section>
+            </div>
+        </footer>
+     </div>
 </body>
 </html>
